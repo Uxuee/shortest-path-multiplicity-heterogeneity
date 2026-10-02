@@ -1,0 +1,54 @@
+# Claims and provenance — Current independent manuscript
+
+Scope: retained manuscript claims only. No new numerical computation was run. Evidence classifications concern the earlier recovery/repair checks, not fresh graph reproduction.
+
+Paths below are relative to the project root <repository-root>. F abbreviates computational_provenance_frozen; T abbreviates F/git_snapshots/0789c90/results/tables. Notebook cell indices are the one-based input indices in F/derived_inspection/notebook_input_cells.json, not consecutive runtime execution order.
+
+| Revised location / claim | Retained content and unit | Evidence | Status / limitation |
+| --- | --- | --- | --- |
+| Title, abstract, Sections1/3 | Shell-based multiplicity heterogeneity; permutation invariance | Preserved C_log equation: sum of absolute cubed deviations over shell targets | Mathematical interpretation; no directional data enter this scalar. |
+| Section3, equations2–8 | Ball, shell, path count, log collection, C_log, shell mean and radial mean | Accepted LaTeX; exact equation comparison in PASS1_VALIDATION.json | Definitions preserved. Repeated values in X are indexed by targets, not deduplicated. |
+| Sections3/4, exclusion and log offset | Notebook shell size<=2 exclusion; log(count+10^-12) | F/downloads/curvature_estimator.nb, inputs2,4,23; recovered report | Candidate implementation evidence. Package variants and execution-state gap remain. |
+| Section4.2, sampling/edges | Uniform radius[1.05,5], uniform angle, M1/2; ambient3D calibrated radius1.15*median kth distance | Notebook early definitions and builder overrides; provenance report | Recovered definitions, not certified active protocol for every result. |
+| Section4.2, contrasting package/control | Area-uniform planar annulus, lower radius1.2; matched-flat union-kNN helper | F/git_snapshots/0789c90/code/CurvatureEstimator.wl; local_snapshot_june23; provenance report | Incompatible definitions documented. Original called helper definition missing from notebook inputs. |
+| Table1, source settings | Result-specific N,k,seeds,binning and fixed radius3 | Notebook inputs10,30,34–40,74–76,86–100,258 and archived CSV metadata | Single-realization links explicitly marked candidate. Seeds do not restore RNG/kernel state. |
+| Section5.1 / Eq9, Flamm | -0.960 +/-0.015; five-seed mean and sample SD of binned Pearson coefficients | T/matched_flat_flamm_seed_scan_N1000.csv and matched_flat_flamm_seed_summary_N1000.csv; provenance_repair/outputs/claim_verification.json | Numerically verified from five saved seed rows during repair; raw graphs absent. N1000,k16,radius3,bins12,seeds1–5. |
+| Section5.1 / Eq10, matched-flat | 0.180 +/-0.315; same statistical unit | Same files and verification record | No claim of curvature specificity or removal of sampling/boundary effects. |
+| Figure3 | Archived common-bin radial profiles | F/submitted_assets/flamm_matched_flat_common_bins.pdf; F/derived_inspection/figure3_saved_plot_lines.json; notebook74–77,258 | Current _clean.pdf derivative removes only the title; original asset retained. Saved coordinates recovered; original bin membership not recovered. Separate realization from five-seed text estimates. |
+| Section5.2 / Eq11 and Figure4 | Approximately0.912; Pearson across12 saved plot points, log(mean K) versus mean C_log | F/submitted_assets/binned_estimator_vs_logK.pdf; F/derived_inspection/figure4_saved_plot_points.csv; notebook34–40; existing repair verification | Numerical value retained; notation clarified. Underlying bin table has a final-bin mismatch and missing KMean; no replacement table substituted. |
+| Section5.3 / Table2 | N200:0.5320; N500:0.5630; N1000:0.6636 | F/derived_inspection/cell_31_with_saved_output.nb.txt; notebook23,26,28,30–31 | Saved summary match only. k12/14/16; seeds1–10/1–10/1–5; radius3. Seed coefficients rounded before aggregation; not full raw-data verification. No new SD column in this pass. |
+| Section5.4 / Figure5 | Title-free derivative preserves the k scan; bars are sample SD over three seeds at fixed radius3 | T/k_sensitivity_matched_flat_flamm_N1000_raw.csv and corresponding summary; notebook86,97,98,100; F/submitted_assets/k_sensitivity_matched_flat_flamm_N1000_errors.pdf | Means/SDs already verified during repair. N1000,k12/14/16/18/20,bins12,seeds1–3. Not radius variability, SE or CI. |
+| Figures1–2 | Explicitly labelled pedagogical replacements | reproducible_schematics/outputs/figure1_replacement.json and figure2_replacement.json; independent_manuscript/figure_design/build_clean_figures.py | Clean vector PDFs are rendered from the stored illustrative graph data through figure_design. Original schematic source/data remain in reproducible_schematics. These are illustrative values, not empirical benchmark results. |
+| Sections1/5/6, Kretschmann interpretation | Parent-spacetime radial reference, not intrinsic-surface curvature reconstruction | Preserved K=48M^2/r^6 definition and elementary log relation; reviewer/provenance guidance | Interpretation narrowed; no new intrinsic-curvature calculation. |
+| Discussion/future work | Need degree,shell-size,clustering,occupancy,edge-scale,log-SD and graph-curvature comparisons | Reviewer requests; absence of verified comparisons in the presented result chain | No baseline results claimed or computed. Other benchmark families deferred. |
+| Section2, literature context | Five verified additions; existing graph-curvature application discussed | REFERENCES_VERIFIED_PASS2.md lists primary verification records | Context only; no new numerical claims or validation of C_log. Seven uncited inherited entries removed. |
+| Section4.4 and final Data and provenance statement | Summary-level verification, missing graphs/execution state, unresolved Figure4 final-bin mismatch | Same frozen evidence as Pass1; technical details relocated | No gap resolved or weakened. Figure5 remains sample SD across three seeds at fixed radius3. |
+
+The accompanying CHANGELOG and CLAIM_CHANGE_SUMMARY document every major interpretation change. In-figure titles, including the historical anisotropy title, have been removed from current numerical plot derivatives. LogCMD axis labels remain and denote multiplicity heterogeneity. This package is not a claim of exact end-to-end reproducibility.
+
+## Explicit protocol, definition and schematic inventory
+
+The main result rows above describe **empirical results**; the rows below distinguish **protocol constants**, **mathematical definitions**, and **illustrative schematic values**. Candidate settings identify saved inputs, not recovered original graph state. Bibliographic years and figure/equation numbers are identifiers, not empirical claims. Paths use the project-root conventions above.
+
+| Category | Manuscript quantity / location | Explicit value | Evidence and qualification |
+| --- | --- | --- | --- |
+| Protocol constant | Section4.2 angular sampling | Uniform angle on [0, 2π] | F/downloads/curvature_estimator.nb, early sampling definitions; alternative active-version ambiguity remains. |
+| Protocol constant | Section4.2 alternative inner boundary | 2M+0.2 = 1.2 at M=1/2 | Historical package definitions identified in the construction row; planar-area sampling variant, not a universally certified boundary. |
+| Protocol constants | Figure3 candidate realization | N=1000; k=16; seed1234; 12 common bins; r_g=3; M=1/2 | Notebook inputs74–77,258 and saved plotting evidence. Candidate linkage only; original realization not recovered. |
+| Protocol constants | Figure4 candidate realization | N=500; k=14; seed1234; 12 radial bins; r_g=3; M=1/2 | Notebook inputs34–40. Seed reset precedes flat, hyperbolic and Flamm generation; preceding draws and missing execution state limit reproduction. |
+| Protocol constant | Figure4 bin-admissibility rule | At least five admissible rows per bin; bins with fewer than five omitted | Recovered Figure4 binning routine, notebook inputs34–40. Lower-inclusive, upper-strict bin intervals; not a count of independent realizations. |
+| Protocol constant | Table2 Spearman aggregation | Each seed coefficient formatted to three decimals, converted back to a number, then averaged | Notebook inputs23,26,28,30–31; saved summary output. Historical precision, not newly recomputed unrounded estimates. |
+| Illustrative schematic values | Figure1 caption | r_g=4; N_geo(p,q)=4 | reproducible_schematics/outputs/figure1_replacement.json, graph_radius and saved target shortest_path_counts; current rendering via independent_manuscript/figure_design/build_clean_figures.py. Not experimental data. |
+| Illustrative schematic values | Figure2 caption | r_g=3; d_G(p,q)=3; N_geo(p,q)=3 | reproducible_schematics/outputs/figure2_replacement.json, graph_radius, target distance and saved target shortest_path_counts; same rendering layer. Not experimental data. |
+| Mathematical definition / representation | Section4.1 Flamm embedding | z=2√[2M(r−2M)] | Recovered surface representation in F/downloads/curvature_estimator.nb; describes embedding, not a measured curvature estimate. |
+| Protocol constant | Flamm coordinate convention | M=1/2 | Recovered inputs and Table1 settings; no physical-unit calibration claimed. |
+| Mathematical definitions | Shell, ball, multiplicity and estimator | S={q:d_G(p,q)=r_g}; B={q:d_G(p,q)≤r_g}; N_geo counts shortest paths; natural-log collection and cubic absolute central-moment dispersion | Preserved Method equations. Powers and integer distance conditions are definitions rather than fitted numerical results. |
+| Mathematical definition / external reference | Sections1/5 Schwarzschild profile | K_Schw=48M²/r⁶; log K_Schw=log(48M²)−6 log r | Parent-spacetime radial reference; not intrinsic-surface reconstruction. |
+
+## Current asset state
+
+Figures1–2 use figures/figure1_clean.pdf and figure2_clean.pdf, rendered from existing illustrative JSON by independent_manuscript/figure_design/build_clean_figures.py. The original illustrative generators/data remain in reproducible_schematics/. Figures3–5 use _clean.pdf derivatives with in-figure titles removed. The previous design validation established identical pixels below the title bands at216dpi; no numerical data or error bars were changed. Original assets are retained. See FIGURE_DESIGN_CHANGELOG.md and figure_design/VALIDATION.json. The final editorial pass does not regenerate any figure or rerun a scientific computation.
+
+## Public subset notice
+
+The public release contains only the subset listed in ../PUBLIC_OMISSIONS.md. References to downloads/curvature_estimator.nb and omitted historical reports identify locally preserved evidence, not public files. Relevant indexed notebook input cells and saved outputs are included in F/derived_inspection/. Original full-archive verification was not rerun after selection. No public subset should be mistaken for exact end-to-end recovery.

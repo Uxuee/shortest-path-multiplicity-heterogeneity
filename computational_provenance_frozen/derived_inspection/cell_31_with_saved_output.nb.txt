@@ -1,0 +1,74 @@
+Cell[BoxData[{
+ RowBox[{"Normal", "[", "summary200", "]"}], "\n", 
+ RowBox[{"Normal", "[", "summary500", "]"}], "\n", 
+ RowBox[{"Normal", "[", "summary1000", "]"}]}], "Input",
+ CellChangeTimes->{{3.9910860001228313`*^9, 3.9910860001228313`*^9}},
+ CellLabel->
+  "In[202]:=",ExpressionUUID->"ff34978d-db01-fa4f-b702-4b2567866c0e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "3"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.1781`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.532`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.13641277229220306`"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.11339999999999999`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.33459999999999995`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.1661185654217426`"}]}], 
+    "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.99108724666428*^9},
+ CellLabel->
+  "Out[202]=",ExpressionUUID->"5ab5fada-b2c0-a546-a3c0-5e95844a23f0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "3"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.17729999999999999`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.563`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.07612124831112825`"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.1666`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.5023`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.06787905911742345`"}]}], 
+    "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9910872466794357`*^9},
+ CellLabel->
+  "Out[203]=",ExpressionUUID->"57eff858-4792-124f-9790-f8c1d2a3ecfc"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "3"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.246`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.6636`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.04692866927582753`"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Radius\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"MeanPearson\"\>", "\[Rule]", "0.2496`"}], ",", 
+     RowBox[{"\<\"MeanSpearman\"\>", "\[Rule]", "0.6274000000000001`"}], ",", 
+     RowBox[{"\<\"StdSpearman\"\>", "\[Rule]", "0.05533805200763757`"}]}], 
+    "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.991087246684511*^9},
+ CellLabel->
+  "Out[204]=",ExpressionUUID->"2dc37b81-be20-f445-99c1-0ef668906174"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+

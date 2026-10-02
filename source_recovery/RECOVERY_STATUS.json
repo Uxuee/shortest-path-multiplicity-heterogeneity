@@ -1,0 +1,35 @@
+{
+  "source": "complex_networks_curvature_full_paper_draft_revised.tex",
+  "assessment": "Recovered source compiles to 12 pages with identical per-page text after NFKC/whitespace normalization and matching visually inspected structure.",
+  "files": {
+    "svproc.cls": {
+      "sha256": "7456b50b0a66d4d89e3f964f0b28cd7331a5a47422246e9f64bc7191c36fffc6",
+      "original": "svproc.cls"
+    },
+    "references.bib": {
+      "sha256": "57d140b1b2d5d6091ce503383d2e6a962867df2ef4f584f4a481440b5b9d42f0",
+      "original": "references.bib"
+    },
+    "complex_networks_curvature_full_paper_draft_revised.tex": {
+      "sha256": "bf134493c3d6a1063798ebe2a94d1816ebe95bc7946a17db3b8fc21d973e1933",
+      "original": "complex_networks_curvature_full_paper_draft_revised.tex"
+    }
+  },
+  "missingFigures": [],
+  "notes": [
+    "All five original PDF figures supplied and copied unchanged to results/figures/. Supplemental PNG retained but not used by LaTeX.",
+    "Bibliography is inline; references.bib is not invoked.",
+    "Tectonic 0.16.9 compilation succeeded with zero warnings after restoring inherited runtime environment and directing caches, font cache and temporary files to D:.",
+    "Original submitted PDF and compiled PDF each have 12 pages; all 12 normalized page-text comparisons pass.",
+    "No manuscript prose, equations, tables or scientific figures edited."
+  ],
+  "figureHashes": {
+    "binned_estimator_vs_logK.pdf": "e98248fa8190c9f20e1eaf7c497ae8d17f4ed7a5a8fd058d2ad9f44db67df7ae",
+    "binned_estimator_vs_logK.png": "0f6d6f56196aae7757a311b97ec7ca52c22393ece03fc708f8bb10379233bfdc",
+    "curved_ball_shell_paths_rasterized.pdf": "d0ffe06dc153f1802cdf16bcf6e01f379120478e0bd3f07b47555ce937d10ff8",
+    "flamm_matched_flat_common_bins.pdf": "9c6f3f8d1683c638d42ebd9ac412cf835db0a746f25d47f15e2ba5c877f93e2d",
+    "grid_ball_shell_paths.pdf": "320ed13ddc9af56227b591a66da4b9b64f1f03484753968cc5bdd7014c5a3042",
+    "k_sensitivity_matched_flat_flamm_N1000_errors.pdf": "bf3540b14a1d0e06f58469ee7504ce43fde8f7ad3918386399151bf3b1a39512"
+  },
+  "public_note": "Local source paths replaced with basenames. This is a public derivative of the preserved recovery record."
+}

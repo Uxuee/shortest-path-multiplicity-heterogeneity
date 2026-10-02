@@ -1,0 +1,157 @@
+{
+  "scope": "Saved-output arithmetic only; no graph generation or shortest-path computation",
+  "figure4_Pearson_logK": 0.9115489383602636,
+  "figure4_points": 12,
+  "figure5_seed_rows": 15,
+  "figure5_seeds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "figure5_radii": [
+    "3"
+  ],
+  "figure5_checks": [
+    {
+      "k": "12",
+      "field": "MatchedFlatMean",
+      "recomputed": 0.12539184282896115,
+      "stored": 0.12539184282896115,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "12",
+      "field": "MatchedFlatStd",
+      "recomputed": 0.33018290494715685,
+      "stored": 0.33018290494715685,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "12",
+      "field": "FlammMean",
+      "recomputed": -0.9421250987456924,
+      "stored": -0.9421250987456924,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "12",
+      "field": "FlammStd",
+      "recomputed": 0.015827267050631588,
+      "stored": 0.015827267050631588,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "14",
+      "field": "MatchedFlatMean",
+      "recomputed": 0.1551623221503172,
+      "stored": 0.1551623221503172,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "14",
+      "field": "MatchedFlatStd",
+      "recomputed": 0.5096630207244403,
+      "stored": 0.5096630207244403,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "14",
+      "field": "FlammMean",
+      "recomputed": -0.9607523435260459,
+      "stored": -0.960752343526046,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "k": "14",
+      "field": "FlammStd",
+      "recomputed": 0.02721135938752554,
+      "stored": 0.027211359387525537,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "k": "16",
+      "field": "MatchedFlatMean",
+      "recomputed": 0.022096610298988864,
+      "stored": 0.02209661029898886,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "k": "16",
+      "field": "MatchedFlatStd",
+      "recomputed": 0.2923951632627871,
+      "stored": 0.2923951632627871,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "16",
+      "field": "FlammMean",
+      "recomputed": -0.9601548925393661,
+      "stored": -0.9601548925393661,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "16",
+      "field": "FlammStd",
+      "recomputed": 0.020045896585337907,
+      "stored": 0.02004589658533791,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "k": "18",
+      "field": "MatchedFlatMean",
+      "recomputed": 0.16486834763029284,
+      "stored": 0.16486834763029284,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "18",
+      "field": "MatchedFlatStd",
+      "recomputed": 0.41252814826895784,
+      "stored": 0.41252814826895784,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "18",
+      "field": "FlammMean",
+      "recomputed": -0.965461320598591,
+      "stored": -0.965461320598591,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "18",
+      "field": "FlammStd",
+      "recomputed": 0.018044057653127835,
+      "stored": 0.01804405765312784,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "k": "20",
+      "field": "MatchedFlatMean",
+      "recomputed": 0.37165740911545914,
+      "stored": 0.37165740911545914,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "20",
+      "field": "MatchedFlatStd",
+      "recomputed": 0.1655795407605987,
+      "stored": 0.1655795407605987,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "20",
+      "field": "FlammMean",
+      "recomputed": -0.9616103787397826,
+      "stored": -0.9616103787397826,
+      "absolute_error": 0.0
+    },
+    {
+      "k": "20",
+      "field": "FlammStd",
+      "recomputed": 0.023186736470567966,
+      "stored": 0.02318673647056797,
+      "absolute_error": 3.469446951953614e-18
+    }
+  ],
+  "figure5_max_abs_error": 1.1102230246251565e-16
+}

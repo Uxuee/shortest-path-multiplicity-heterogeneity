@@ -1,0 +1,17 @@
+{
+  "pages": 12,
+  "numerical_plot_checks": [
+    {
+      "figure": "flamm_matched_flat_common_bins",
+      "all_pixels_below_title_identical_at_216dpi": true
+    },
+    {
+      "figure": "binned_estimator_vs_logK",
+      "all_pixels_below_title_identical_at_216dpi": true
+    },
+    {
+      "figure": "k_sensitivity_matched_flat_flamm_N1000_errors",
+      "all_pixels_below_title_identical_at_216dpi": true
+    }
+  ]
+}

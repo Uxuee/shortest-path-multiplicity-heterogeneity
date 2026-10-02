@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this unpublished independent manuscript using the preferred citation below. Metadata is a placeholder pending publication."
+title: "Shortest-Path Multiplicity Heterogeneity as a Graph Diagnostic for Radial Organization in Sampled Geometries"
+authors:
+  - given-names: "Ariadna Uxue"
+    family-names: "Palomino Ylla"
+preferred-citation:
+  type: unpublished
+  title: "Shortest-Path Multiplicity Heterogeneity as a Graph Diagnostic for Radial Organization in Sampled Geometries"
+  authors:
+    - given-names: "Ariadna Uxue"
+      family-names: "Palomino Ylla"
+  year: 2026
+  notes: "Unpublished manuscript / independent draft. Citation metadata placeholder; no DOI assigned."

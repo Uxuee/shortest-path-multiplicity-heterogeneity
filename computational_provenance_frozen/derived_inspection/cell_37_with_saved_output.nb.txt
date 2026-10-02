@@ -1,0 +1,50 @@
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"brows", "=", 
+    RowBox[{"Normal", "[", "binned500r3", "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"kvals", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"#", "[", "\"\<KMean\>\"", "]"}], "&"}], ",", "brows"}], 
+    "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"evals", "=", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "[", "\"\<EstimatorMean\>\"", "]"}], "&"}], ",", 
+      "brows"}], "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"Correlation", "[", 
+  RowBox[{"kvals", ",", "evals"}], "]"}], "\n", 
+ RowBox[{"Correlation", "[", 
+  RowBox[{
+   RowBox[{"Log", "[", "kvals", "]"}], ",", "evals"}], "]"}], "\n", 
+ RowBox[{"Correlation", "[", 
+  RowBox[{
+   RowBox[{"rankData", "[", "kvals", "]"}], ",", 
+   RowBox[{"rankData", "[", "evals", "]"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9910913873750916`*^9, 3.9910913873750916`*^9}},
+ CellLabel->
+  "In[227]:=",ExpressionUUID->"7366174d-ee93-894c-8505-83f6d63985fd"],
+
+Cell[BoxData["0.4966175687121693`"], "Output",
+ CellChangeTimes->{3.991095082242573*^9},
+ CellLabel->
+  "Out[230]=",ExpressionUUID->"4aabcffe-4c74-484f-b850-79dadd2c791a"],
+
+Cell[BoxData["0.9115489383602686`"], "Output",
+ CellChangeTimes->{3.9910976796566525`*^9},
+ CellLabel->
+  "Out[231]=",ExpressionUUID->"8219fdc5-3f97-1d46-a03e-b68e57a19271"],
+
+Cell[BoxData[
+ FractionBox["125", "143"]], "Output",
+ CellChangeTimes->{3.991097680924402*^9},
+ CellLabel->
+  "Out[232]=",ExpressionUUID->"a140b56e-ca63-8942-8360-ebc3f3d13955"]
+}, Open  ]],
+

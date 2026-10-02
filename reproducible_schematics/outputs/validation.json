@@ -1,0 +1,26 @@
+{
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "figures": [
+    {
+      "name": "figure1_replacement",
+      "nodes": 81,
+      "edges": 144,
+      "source": 40,
+      "target": 52,
+      "radius": 4,
+      "multiplicity": 4,
+      "C_log": 0.7649947139577313
+    },
+    {
+      "name": "figure2_replacement",
+      "nodes": 60,
+      "edges": 136,
+      "source": 20,
+      "target": 10,
+      "radius": 3,
+      "multiplicity": 3,
+      "C_log": 0.5117137223644922
+    }
+  ],
+  "validation": "BFS path counts checked by exhaustive target-path enumeration; grid count also equals binomial(4,1)"
+}

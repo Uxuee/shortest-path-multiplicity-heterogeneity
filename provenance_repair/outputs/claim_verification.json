@@ -1,0 +1,174 @@
+{
+  "scope": "Saved-data verification only; no new numerical experiment",
+  "frozen_files_verified": 236,
+  "five_seed_claims": {
+    "Flamm": {
+      "mean": -0.9601527379748082,
+      "sample_standard_deviation": 0.014690649851970987,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n": 5,
+      "radius": 3,
+      "k": 16,
+      "bins": 12,
+      "stored_summary_match": true
+    },
+    "MatchedFlat": {
+      "mean": 0.18036841525911898,
+      "sample_standard_deviation": 0.31499869452463386,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n": 5,
+      "radius": 3,
+      "k": 16,
+      "bins": 12,
+      "stored_summary_match": true
+    }
+  },
+  "figure5_summary": [
+    {
+      "k": 12,
+      "case": "MatchedFlat",
+      "n": 3,
+      "mean": 0.12539184282896115,
+      "sample_sd": 0.33018290494715685,
+      "standard_error_for_comparison_only": 0.19063118905305362,
+      "lower_plotted": -0.2047910621181957,
+      "upper_plotted": 0.455574747776118
+    },
+    {
+      "k": 12,
+      "case": "Flamm",
+      "n": 3,
+      "mean": -0.9421250987456924,
+      "sample_sd": 0.015827267050631588,
+      "standard_error_for_comparison_only": 0.009137876892218242,
+      "lower_plotted": -0.957952365796324,
+      "upper_plotted": -0.9262978316950607
+    },
+    {
+      "k": 14,
+      "case": "MatchedFlat",
+      "n": 3,
+      "mean": 0.1551623221503172,
+      "sample_sd": 0.5096630207244403,
+      "standard_error_for_comparison_only": 0.29425408221125343,
+      "lower_plotted": -0.35450069857412303,
+      "upper_plotted": 0.6648253428747575
+    },
+    {
+      "k": 14,
+      "case": "Flamm",
+      "n": 3,
+      "mean": -0.9607523435260459,
+      "sample_sd": 0.02721135938752554,
+      "standard_error_for_comparison_only": 0.01571048566740352,
+      "lower_plotted": -0.9879637029135714,
+      "upper_plotted": -0.9335409841385204
+    },
+    {
+      "k": 16,
+      "case": "MatchedFlat",
+      "n": 3,
+      "mean": 0.022096610298988864,
+      "sample_sd": 0.2923951632627871,
+      "standard_error_for_comparison_only": 0.1688144262195147,
+      "lower_plotted": -0.27029855296379823,
+      "upper_plotted": 0.31449177356177593
+    },
+    {
+      "k": 16,
+      "case": "Flamm",
+      "n": 3,
+      "mean": -0.9601548925393661,
+      "sample_sd": 0.020045896585337907,
+      "standard_error_for_comparison_only": 0.011573503789692241,
+      "lower_plotted": -0.9802007891247041,
+      "upper_plotted": -0.9401089959540282
+    },
+    {
+      "k": 18,
+      "case": "MatchedFlat",
+      "n": 3,
+      "mean": 0.16486834763029284,
+      "sample_sd": 0.41252814826895784,
+      "standard_error_for_comparison_only": 0.23817323745138066,
+      "lower_plotted": -0.247659800638665,
+      "upper_plotted": 0.5773964958992507
+    },
+    {
+      "k": 18,
+      "case": "Flamm",
+      "n": 3,
+      "mean": -0.965461320598591,
+      "sample_sd": 0.018044057653127835,
+      "standard_error_for_comparison_only": 0.010417741543306483,
+      "lower_plotted": -0.9835053782517189,
+      "upper_plotted": -0.9474172629454631
+    },
+    {
+      "k": 20,
+      "case": "MatchedFlat",
+      "n": 3,
+      "mean": 0.37165740911545914,
+      "sample_sd": 0.1655795407605987,
+      "standard_error_for_comparison_only": 0.09559739243042627,
+      "lower_plotted": 0.20607786835486044,
+      "upper_plotted": 0.5372369498760579
+    },
+    {
+      "k": 20,
+      "case": "Flamm",
+      "n": 3,
+      "mean": -0.9616103787397826,
+      "sample_sd": 0.023186736470567966,
+      "standard_error_for_comparison_only": 0.013386868542911328,
+      "lower_plotted": -0.9847971152103506,
+      "upper_plotted": -0.9384236422692146
+    }
+  ],
+  "figure4_Pearson": 0.9115489383602636,
+  "figure3_saved_line_correlations": {
+    "MatchedFlat": 0.31826313084964214,
+    "Flamm": -0.9823256837527709
+  },
+  "table2": [
+    {
+      "N": 200,
+      "k": 12,
+      "seed_count": 10,
+      "radius": 3,
+      "saved_mean_spearman": 0.532,
+      "saved_sample_sd_of_rounded_seed_correlations": 0.13641277229220306,
+      "verification": "saved summary only; not recomputed from all original seed values"
+    },
+    {
+      "N": 500,
+      "k": 14,
+      "seed_count": 10,
+      "radius": 3,
+      "saved_mean_spearman": 0.563,
+      "saved_sample_sd_of_rounded_seed_correlations": 0.07612124831112825,
+      "verification": "saved summary only; not recomputed from all original seed values"
+    },
+    {
+      "N": 1000,
+      "k": 16,
+      "seed_count": 5,
+      "radius": 3,
+      "saved_mean_spearman": 0.6636,
+      "saved_sample_sd_of_rounded_seed_correlations": 0.04692866927582753,
+      "verification": "saved summary only; not recomputed from all original seed values"
+    }
+  ]
+}

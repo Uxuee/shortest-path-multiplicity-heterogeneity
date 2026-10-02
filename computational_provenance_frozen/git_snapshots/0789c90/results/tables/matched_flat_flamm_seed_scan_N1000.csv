@@ -1,0 +1,5 @@
+"{Seed : 1, N : 1000, k : 16, Radius : 3, Bins : 12, MatchedFlatCorrRLogCMD : 0.3533760461149152, FlammCorrRLogCMD : -0.9465922437642524, Difference : -1.2999682898791676}"
+"{Seed : 2, N : 1000, k : 16, Radius : 3, Bins : 12, MatchedFlatCorrRLogCMD : -0.08710390976223757, FlammCorrRLogCMD : -0.9506918674920506, Difference : -0.863587957729813}"
+"{Seed : 3, N : 1000, k : 16, Radius : 3, Bins : 12, MatchedFlatCorrRLogCMD : -0.19998230545571102, FlammCorrRLogCMD : -0.9831805663617955, Difference : -0.7831982609060845}"
+"{Seed : 4, N : 1000, k : 16, Radius : 3, Bins : 12, MatchedFlatCorrRLogCMD : 0.2798774001346735, FlammCorrRLogCMD : -0.954691264760249, Difference : -1.2345686648949226}"
+"{Seed : 5, N : 1000, k : 16, Radius : 3, Bins : 12, MatchedFlatCorrRLogCMD : 0.5556748452639548, FlammCorrRLogCMD : -0.965607747495693, Difference : -1.5212825927596478}"

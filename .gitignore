@@ -1,0 +1,11 @@
+/tmp/
+/.cache/
+/tools/
+**/__pycache__/
+*.pyc
+*.log
+*.aux
+*.out
+*.bundle
+*.zip
+/independent_manuscript/build/

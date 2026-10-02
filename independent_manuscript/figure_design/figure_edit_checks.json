@@ -1,0 +1,23 @@
+[
+  {
+    "source": "flamm_matched_flat_common_bins.pdf",
+    "output": "flamm_matched_flat_common_bins_clean.pdf",
+    "removed_text": "Schwarzschild/Flamm vs matched flat, common radial bins",
+    "drawings_before": 208,
+    "drawings_after": 208
+  },
+  {
+    "source": "binned_estimator_vs_logK.pdf",
+    "output": "binned_estimator_vs_logK_clean.pdf",
+    "removed_text": "Binned path anisotropy vs log curvature",
+    "drawings_before": 108,
+    "drawings_after": 108
+  },
+  {
+    "source": "k_sensitivity_matched_flat_flamm_N1000_errors.pdf",
+    "output": "k_sensitivity_matched_flat_flamm_N1000_errors_clean.pdf",
+    "removed_text": "k-sensitivity of matched-flat control, N=1000",
+    "drawings_before": 162,
+    "drawings_after": 162
+  }
+]

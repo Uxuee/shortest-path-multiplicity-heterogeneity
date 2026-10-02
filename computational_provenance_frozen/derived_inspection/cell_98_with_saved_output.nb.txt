@@ -1,0 +1,131 @@
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"kSummary1000", "=", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"rows", ",", "mf", ",", "fl"}], "}"}], ",", 
+        RowBox[{
+         RowBox[{"rows", "=", 
+          RowBox[{"Select", "[", 
+           RowBox[{"matchedFlatFlammKScan1000", ",", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"#", "[", "\"\<k\>\"", "]"}], "==", "k"}], "&"}]}], 
+           "]"}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"mf", "=", 
+          RowBox[{"Lookup", "[", 
+           RowBox[{"rows", ",", "\"\<MatchedFlatCorrRLogCMD\>\""}], "]"}]}], ";",
+          "\[IndentingNewLine]", 
+         RowBox[{"fl", "=", 
+          RowBox[{"Lookup", "[", 
+           RowBox[{"rows", ",", "\"\<FlammCorrRLogCMD\>\""}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"<|", 
+          RowBox[{
+           RowBox[{"\"\<k\>\"", "->", "k"}], ",", 
+           RowBox[{"\"\<MatchedFlatMean\>\"", "->", 
+            RowBox[{"Mean", "[", "mf", "]"}]}], ",", 
+           RowBox[{"\"\<MatchedFlatStd\>\"", "->", 
+            RowBox[{"StandardDeviation", "[", "mf", "]"}]}], ",", 
+           RowBox[{"\"\<FlammMean\>\"", "->", 
+            RowBox[{"Mean", "[", "fl", "]"}]}], ",", 
+           RowBox[{"\"\<FlammStd\>\"", "->", 
+            RowBox[{"StandardDeviation", "[", "fl", "]"}]}]}], "|>"}]}]}], 
+       "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", 
+        RowBox[{"{", 
+         RowBox[{"12", ",", "14", ",", "16", ",", "18", ",", "20"}], "}"}]}], 
+       "}"}]}], "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"kSummary1000", "//", "TableForm"}]}], "Input",
+ CellChangeTimes->{{3.9911772095511436`*^9, 3.9911772095511436`*^9}},
+ CellLabel->
+  "In[466]:=",ExpressionUUID->"e8fd466d-d48e-b64f-8c26-f814f9510bfd"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"k\"\>", "\[Rule]", "12"}], ",", 
+        RowBox[{"\<\"MatchedFlatMean\"\>", "\[Rule]", 
+         "0.12539184282896115`"}], ",", 
+        RowBox[{"\<\"MatchedFlatStd\"\>", "\[Rule]", "0.33018290494715685`"}],
+         ",", 
+        RowBox[{"\<\"FlammMean\"\>", "\[Rule]", 
+         RowBox[{"-", "0.9421250987456924`"}]}], ",", 
+        RowBox[{"\<\"FlammStd\"\>", "\[Rule]", "0.015827267050631588`"}]}], 
+       "\[RightAssociation]"}]},
+     {
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"k\"\>", "\[Rule]", "14"}], ",", 
+        RowBox[{"\<\"MatchedFlatMean\"\>", "\[Rule]", "0.1551623221503172`"}],
+         ",", 
+        RowBox[{"\<\"MatchedFlatStd\"\>", "\[Rule]", "0.5096630207244403`"}], 
+        ",", 
+        RowBox[{"\<\"FlammMean\"\>", "\[Rule]", 
+         RowBox[{"-", "0.960752343526046`"}]}], ",", 
+        RowBox[{"\<\"FlammStd\"\>", "\[Rule]", "0.027211359387525537`"}]}], 
+       "\[RightAssociation]"}]},
+     {
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"k\"\>", "\[Rule]", "16"}], ",", 
+        RowBox[{"\<\"MatchedFlatMean\"\>", "\[Rule]", 
+         "0.02209661029898886`"}], ",", 
+        RowBox[{"\<\"MatchedFlatStd\"\>", "\[Rule]", "0.2923951632627871`"}], 
+        ",", 
+        RowBox[{"\<\"FlammMean\"\>", "\[Rule]", 
+         RowBox[{"-", "0.9601548925393661`"}]}], ",", 
+        RowBox[{"\<\"FlammStd\"\>", "\[Rule]", "0.02004589658533791`"}]}], 
+       "\[RightAssociation]"}]},
+     {
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"k\"\>", "\[Rule]", "18"}], ",", 
+        RowBox[{"\<\"MatchedFlatMean\"\>", "\[Rule]", 
+         "0.16486834763029284`"}], ",", 
+        RowBox[{"\<\"MatchedFlatStd\"\>", "\[Rule]", "0.41252814826895784`"}],
+         ",", 
+        RowBox[{"\<\"FlammMean\"\>", "\[Rule]", 
+         RowBox[{"-", "0.965461320598591`"}]}], ",", 
+        RowBox[{"\<\"FlammStd\"\>", "\[Rule]", "0.01804405765312784`"}]}], 
+       "\[RightAssociation]"}]},
+     {
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"k\"\>", "\[Rule]", "20"}], ",", 
+        RowBox[{"\<\"MatchedFlatMean\"\>", "\[Rule]", 
+         "0.37165740911545914`"}], ",", 
+        RowBox[{"\<\"MatchedFlatStd\"\>", "\[Rule]", "0.1655795407605987`"}], 
+        ",", 
+        RowBox[{"\<\"FlammMean\"\>", "\[Rule]", 
+         RowBox[{"-", "0.9616103787397826`"}]}], ",", 
+        RowBox[{"\<\"FlammStd\"\>", "\[Rule]", "0.02318673647056797`"}]}], 
+       "\[RightAssociation]"}]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.9911783436214314`*^9},
+ CellLabel->
+  "Out[467]//TableForm=",ExpressionUUID->"f90ad908-583f-3441-aebf-\
+04c1f0d1b854"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+

@@ -49,7 +49,7 @@ independent_manuscript/
   FINAL_EDITORIAL_FIX_REPORT.md
 
 computational_provenance_frozen/
-  archived plotting evidence, summaries, recovered files, and file hashes
+  public-safe subset of plotting evidence, summaries, selected cells, and file hashes
 
 provenance_repair/
   verification outputs, repair reports, and numerical traceability notes
@@ -103,4 +103,10 @@ A stronger publishable version should use a new, clean, versioned computational 
 
 ## License
 
-Add a license before making the repository public. A permissive license such as MIT can be used for code. For the manuscript, consider CC BY 4.0 if the goal is open academic reuse.
+No project-wide license has been selected. See LICENSE_TODO.md; inclusion does not grant a new license. Source-specific license notices are retained.
+
+## Public-safety scope
+
+This release excludes private review material, old Git bundles/history, unrelated exploratory outputs, local configuration and temporary build files. See [public-safety audit](PUBLIC_SAFETY_AUDIT.md) and [omissions](PUBLIC_OMISSIONS.md). The complete frozen archive is retained locally; the public provenance directory is a documented subset. Historical reports may refer to omitted local evidence.
+
+The current [PDF](independent_manuscript/manuscript.pdf), [source](independent_manuscript/manuscript.tex) and [build instructions](independent_manuscript/BUILD.md) are included. Figure build scripts use repository-relative outputs and an installed Tectonic executable. Portability edits were statically checked; no generators were run during publication.

@@ -1,0 +1,33 @@
+{
+  "deterministic_artifacts": [
+    {
+      "name": "figure1_replacement.svg",
+      "sha256": "a385706c7570d85a31684a376c46de11b9175325e02a0edbb9d0f8038be699d0",
+      "identical": true
+    },
+    {
+      "name": "figure1_replacement.json",
+      "sha256": "8da5ce3baa107f0b3fca9999f157ee171debf3c5dee3d852e54c76b01a78484d",
+      "identical": true
+    },
+    {
+      "name": "figure2_replacement.svg",
+      "sha256": "7f9c7d795d0befcddbfd4802d17eb6ece7b894654efff778cac375af2eddf279",
+      "identical": true
+    },
+    {
+      "name": "figure2_replacement.json",
+      "sha256": "dc6c2636b48218960e8f091fb592c44e6997453471fb53c2cbaf1f095d339c44",
+      "identical": true
+    }
+  ],
+  "protected_paths_unchanged": true,
+  "protected_git_commit": "e72b6c4e34d1fa991acaa316778b37a25f82389d",
+  "protected_paths": [
+    "computational_provenance_frozen",
+    "source_recovery",
+    "reference"
+  ],
+  "visual_review": "Both final SVGs rendered to PNG and inspected; no clipping or overlapping labels found",
+  "expensive_computations_run": false
+}

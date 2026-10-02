@@ -1,0 +1,58 @@
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"commonOldFlammComparison", "=", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\"\<FlammCorrRLogCMD\>\"", "->", 
+       RowBox[{"Correlation", "[", 
+        RowBox[{
+         RowBox[{"Lookup", "[", 
+          RowBox[{"commonOldFlammBinned", ",", "\"\<rMean\>\""}], "]"}], ",", 
+         RowBox[{"Lookup", "[", 
+          RowBox[{"commonOldFlammBinned", ",", "\"\<EstimatorMean2\>\""}], 
+          "]"}]}], "]"}]}], ",", 
+      RowBox[{"\"\<MatchedFlatCorrRLogCMD\>\"", "->", 
+       RowBox[{"Correlation", "[", 
+        RowBox[{
+         RowBox[{"Lookup", "[", 
+          RowBox[{"commonOldFlammBinned", ",", "\"\<rMean\>\""}], "]"}], ",", 
+         RowBox[{"Lookup", "[", 
+          RowBox[{"commonOldFlammBinned", ",", "\"\<EstimatorMean1\>\""}], 
+          "]"}]}], "]"}]}], ",", 
+      RowBox[{"\"\<Difference\>\"", "->", 
+       RowBox[{
+        RowBox[{"Correlation", "[", 
+         RowBox[{
+          RowBox[{"Lookup", "[", 
+           RowBox[{"commonOldFlammBinned", ",", "\"\<rMean\>\""}], "]"}], ",", 
+          RowBox[{"Lookup", "[", 
+           RowBox[{"commonOldFlammBinned", ",", "\"\<EstimatorMean2\>\""}], 
+           "]"}]}], "]"}], "-", 
+        RowBox[{"Correlation", "[", 
+         RowBox[{
+          RowBox[{"Lookup", "[", 
+           RowBox[{"commonOldFlammBinned", ",", "\"\<rMean\>\""}], "]"}], ",", 
+          RowBox[{"Lookup", "[", 
+           RowBox[{"commonOldFlammBinned", ",", "\"\<EstimatorMean1\>\""}], 
+           "]"}]}], "]"}]}]}]}], "|>"}]}], ";"}], 
+  "\n"}], "\[IndentingNewLine]", "commonOldFlammComparison"}], "Input",
+ CellChangeTimes->{{3.991343267544792*^9, 3.991343267544792*^9}},
+ CellLabel->
+  "In[1045]:=",ExpressionUUID->"0ed07734-6f23-0845-9efd-cc9a50da6bad"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"FlammCorrRLogCMD\"\>", "\[Rule]", 
+    RowBox[{"-", "0.9823256837527709`"}]}], ",", 
+   RowBox[{"\<\"MatchedFlatCorrRLogCMD\"\>", "\[Rule]", 
+    "0.3182631308496421`"}], ",", 
+   RowBox[{"\<\"Difference\"\>", "\[Rule]", 
+    RowBox[{"-", "1.300588814602413`"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.99134326825473*^9},
+ CellLabel->
+  "Out[1046]=",ExpressionUUID->"fdd9911f-ab75-0841-a24f-71550de48d32"]
+}, Open  ]],
+
