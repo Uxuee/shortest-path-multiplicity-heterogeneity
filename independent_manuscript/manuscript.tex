@@ -37,7 +37,7 @@ K_{\mathrm{Schw}}(r)=\frac{48M^2}{r^6}.
 \end{equation}
 This scalar belongs to the parent spacetime; it is not the intrinsic curvature of the sampled spatial surface. It supplies a simple associated radial profile. At fixed mass, $\log K_{\mathrm{Schw}}$ is an affine function of $\log r$, so strong correlation with it does not establish curvature specificity. The control comparison is informative about the graph constructions represented here, but cannot by itself remove sampling or construction confounding.
 
-Our contribution is a simple shell-based dispersion measure together with an exploratory spatial-graph case study. We preserve the observed numerical associations while distinguishing them from directional interpretation, continuum reconstruction and claims of generality. Quantitative extensions to other geometries and comparisons with simpler graph observables remain outside the evidence presented here.
+Our contribution is a simple shell-based dispersion measure together with an exploratory spatial-graph case study. The observed numerical associations are distinct from directional interpretation, continuum reconstruction and claims of generality. Quantitative extensions to other geometries and comparisons with simpler graph observables remain outside the evidence presented here.
 
 \section{Related Work}
 Spatial constraints influence connectivity and transport in networks, as reviewed by Barth\'elemy~\cite{Barthelemy2011}. Random geometric graphs provide a mathematical setting in which sampled positions and a proximity rule jointly determine edges~\cite{Penrose2003}. These perspectives motivate attention to the sampling measure, domain and distance rule when interpreting shortest paths. A graph statistic can respond to the construction as well as to the sampled geometry.
@@ -74,7 +74,7 @@ be the number of shortest paths from $p$ to $q$. It is at least one for a reacha
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figure1_clean.pdf}
-\caption{Reproducible replacement schematic on a square lattice. (a) The ball $B_{r_g}(p)=\{v:d_G(p,v)\leq r_g\}$ contains the source $p$ (dark) and interior nodes (light pink); the shell $S_{r_g}(p)=\{v:d_G(p,v)=r_g\}$ is red, with $r_g=4$. Blue nodes lie outside the ball. Here $d_G$ counts edges in a shortest path. (b) Orange edges show the union of the four shortest paths to the orange target $q$, so $N_{\mathrm{geo}}(p,q)=4$. The statistic uses multiplicities for all shell targets. This graph is illustrative, not experimental data.}
+\caption{Schematic illustration on a square lattice. (a) The ball $B_{r_g}(p)=\{v:d_G(p,v)\leq r_g\}$ contains the source $p$ (dark) and interior nodes (light pink); the shell $S_{r_g}(p)=\{v:d_G(p,v)=r_g\}$ is red, with $r_g=4$. Blue nodes lie outside the ball. Here $d_G$ counts edges in a shortest path. (b) Orange edges show the union of the four shortest paths to the orange target $q$, so $N_{\mathrm{geo}}(p,q)=4$. The statistic uses multiplicities for all shell targets. This graph is illustrative, not experimental data.}
 \label{fig:shell-schematic}
 \end{figure}
 
@@ -113,7 +113,7 @@ The coordinate used for correlation is the mean source radius in a bin, except w
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figure2_clean.pdf}
-\caption{Reproducible replacement schematic on a deterministic irregular graph embedded on a Flamm surface, shown in $x$--$y$ projection. (a) The source $p$ is dark, interior ball nodes are light pink, shell nodes are red and outside nodes are blue. The ball is $B_{r_g}(p)=\{v:d_G(p,v)\leq r_g\}$ and the shell is $S_{r_g}(p)=\{v:d_G(p,v)=r_g\}$, with $r_g=3$; $d_G$ counts edges, not drawing distance. (b) Orange edges show all shortest paths to the orange target $q$: $d_G(p,q)=3$ and $N_{\mathrm{geo}}(p,q)=3$. Multiplicity heterogeneity uses all shell targets. This illustrative graph is separate from the numerical benchmark.}
+\caption{Schematic illustration on a deterministic irregular graph embedded on a Flamm surface, shown in $x$--$y$ projection. (a) The source $p$ is dark, interior ball nodes are light pink, shell nodes are red and outside nodes are blue. The ball is $B_{r_g}(p)=\{v:d_G(p,v)\leq r_g\}$ and the shell is $S_{r_g}(p)=\{v:d_G(p,v)=r_g\}$, with $r_g=3$; $d_G$ counts edges, not drawing distance. (b) Orange edges show all shortest paths to the orange target $q$: $d_G(p,q)=3$ and $N_{\mathrm{geo}}(p,q)=3$. Multiplicity heterogeneity uses all shell targets. This illustrative graph is separate from the numerical benchmark.}
 \label{fig:curved-shell-schematic}
 \end{figure}
 \FloatBarrier
@@ -171,7 +171,7 @@ Table~\ref{tab:refinement} concerns node-level Spearman rank correlation between
 \label{sec:provenance}
 The evidence consists of preserved manuscript source, numerical summaries and plotting records, together with deterministic replacement schematics. Original graph realizations and the definitive execution state were not recovered. Verification concerns the reported summaries and plotted coordinates, not exact end-to-end reproduction of the sampled graphs.
 
-Figures~\ref{fig:shell-schematic} and~\ref{fig:curved-shell-schematic} are reproducible schematic replacements, separate from the numerical experiments. Figures~\ref{fig:radial-profiles}--\ref{fig:robustness} use presentation-only derivatives with in-figure titles removed; plotted data, axes and error bars are preserved. The historical axis label LogCMD refers to multiplicity heterogeneity. Saved seed-level records support the five-seed radial estimates and Figure~\ref{fig:robustness} summaries. Saved plotting coordinates support the Figure~\ref{fig:logK} coefficient, and notebook summary output supports Table~\ref{tab:refinement}. A conflicting Figure~\ref{fig:logK} tabular file remains unresolved, as detailed in the final Data and provenance statement. No new simulation or baseline experiment is included.
+Figures~\ref{fig:shell-schematic} and~\ref{fig:curved-shell-schematic} are reproducible schematic replacements, separate from the numerical experiments. Figures~\ref{fig:radial-profiles}--\ref{fig:robustness} present the archived numerical plots; their plotted data, axes and error bars are preserved. The historical axis label LogCMD refers to multiplicity heterogeneity. Saved seed-level records support the five-seed radial estimates and Figure~\ref{fig:robustness} summaries. Saved plotting coordinates support the Figure~\ref{fig:logK} coefficient, and notebook summary output supports Table~\ref{tab:refinement}. A conflicting Figure~\ref{fig:logK} tabular file remains unresolved, as detailed in the final Data and provenance statement. No new simulation or baseline experiment is included.
 
 \section{Results}
 \subsection{Radial organization of multiplicity heterogeneity}
@@ -189,7 +189,7 @@ Figure~\ref{fig:radial-profiles} shows a separate single-realization comparison 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{flamm_matched_flat_common_bins_clean.pdf}
-\caption{Mean multiplicity heterogeneity in the Flamm graph and matched-flat control on common radial bins for one realization. This comparison is separate from the five-seed correlation estimates in the text. Only the in-figure title has been removed.}
+\caption{Mean multiplicity heterogeneity in the Flamm graph and matched-flat control on common radial bins for one realization. This comparison is separate from the five-seed correlation estimates in the text.}
 \label{fig:radial-profiles}
 \end{figure}
 
@@ -204,7 +204,7 @@ The Kretschmann profile is used because it is a known radial function associated
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{binned_estimator_vs_logK_clean.pdf}
-\caption{Binned multiplicity heterogeneity versus the logarithm of the bin-mean Schwarzschild reference. The 12 plotted points give Pearson correlation approximately $0.912$, describing radial-reference agreement. The in-figure title has been removed; plotted values are unchanged.}
+\caption{Binned multiplicity heterogeneity versus the logarithm of the bin-mean Schwarzschild reference. The 12 plotted points give Pearson correlation approximately $0.912$, describing radial-reference agreement.}
 \label{fig:logK}
 \end{figure}
 
@@ -249,7 +249,7 @@ Sampling and boundaries provide further alternatives. Uniform sampling in radius
 
 The reference comparison must also remain limited in scope. A Schwarzschild spacetime scalar is not the intrinsic curvature of the sampled surface. Correlation with its monotonic radial profile records association with radius-dependent organization, rather than a reconstruction theorem or demonstration of curvature specificity. An intrinsic-spatial reference comparison and controlled null ensembles would address different questions from the present plot.
 
-Provenance limits are substantive. Saved summaries and plotting coordinates support retained numerical reporting, but missing original graph realizations and unresolved active code definitions restrict verification of the generation process. Replacement schematics repair the illustrations only; they do not repair that missing numerical execution history. This distinction matters when assessing the method's current empirical support.
+Provenance limits are substantive. Saved summaries and plotting coordinates support retained numerical reporting, but missing original graph realizations and unresolved active code definitions restrict verification of the generation process. The pedagogical schematics provide no evidence about the missing numerical execution history. This distinction matters when assessing the method's current empirical support.
 
 Several comparisons remain future work: standard deviation of log multiplicities, shell size, degree, clustering, radial occupancy, local edge scale, and established graph-curvature measures. Homogeneous isotropic spatial ensembles under matched construction, and additional network null models, could quantify expected fluctuations in the absence of the proposed signal. These comparisons have not been established by the available evidence. Directional analysis, weighted graphs, and hyperbolic or other black-hole-inspired benchmarks likewise require separately documented validation.
 
@@ -259,7 +259,7 @@ We have presented shell-based shortest-path multiplicity heterogeneity as a grap
 The results show radial organization and association with the external Schwarzschild reference profile under the tested constructions. They motivate further study of the observable as a promising graph diagnostic, while leaving curvature specificity, controlled baseline comparisons and exact graph-level reproduction unresolved.
 
 \section*{Data and provenance statement}
-This manuscript draws on preserved source, plotting evidence and numerical summaries documented in the accompanying provenance records. The claim-to-file mapping is recorded in \path{CLAIMS_AND_PROVENANCE_TABLE.md}; original recovered files remain separate in \path{computational_provenance_frozen/}, with investigation records in \path{provenance_repair/}. The accompanying repository for the archived independent draft is available at \url{https://github.com/Uxuee/shortest-path-multiplicity-heterogeneity/tree/independent_draft_editorial_clean_oct2026}. Deterministic generators and illustrative graph data for the replacement schematics are in \path{reproducible_schematics/}. The clean vector artwork is rendered from those data by \path{independent_manuscript/figure_design/build_clean_figures.py}. These schematics replace missing illustration generators, not missing experimental realizations.
+This manuscript draws on preserved source, plotting evidence and numerical summaries documented in the accompanying provenance records. The claim-to-file mapping is recorded in \path{CLAIMS_AND_PROVENANCE_TABLE.md}; original recovered files remain separate in \path{computational_provenance_frozen/}, with investigation records in \path{provenance_repair/}. The accompanying repository for the archived independent draft is available at \url{https://github.com/Uxuee/shortest-path-multiplicity-heterogeneity/tree/independent_draft_editorial_clean_oct2026}. Deterministic generators and illustrative graph data for the replacement schematics are in \path{reproducible_schematics/}. The clean vector artwork is rendered from those data by \path{independent_manuscript/figure_design/build_clean_figures.py}. These schematics are pedagogical illustrations and are not experimental realizations.
 
 The source notebook contains repeated definitions and nonsequential evaluation labels. Its original kernel state is unavailable. The matched-flat helper invoked by some scans lacks a definition in the extracted notebook inputs, although a packaged implementation exists. That implementation cannot be certified as the one active at execution. Original point clouds, complete graphs, raw per-source path data and complete node-to-bin assignments have not been recovered.
 
